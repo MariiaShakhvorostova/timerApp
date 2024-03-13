@@ -1,0 +1,97 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.timer-app {
+  width: 360px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(223, 223, 223, 1);
+  padding-bottom: 272px;
+}
+
+.app {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: rgba(223, 223, 223, 1);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 50px;
+}
+
+.icons {
+  background-image: url(/Status\ Bar.png);
+  width: 100px;
+  height: 30px;
+}
+
+.time {
+  color: black;
+  margin-top: 14px;
+  margin-left: 18px;
+}
+
+h1 {
+  width: 163px;
+  height: 75px;
+  font-size: 65px;
+  margin-bottom: 30px;
+}
+
+.num_of_component {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.line {
+  width: 328px;
+  height: 1px;
+  background-color: rgba(187, 187, 187, 1);
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.play_btn,
+.pause_btn,
+.reset_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: aliceblue;
+  border-radius: 8px;
+  border: 0cap;
+  width: 160px;
+  height: 36px;
+}
+
+.play_btn {
+  background-color: rgba(0, 174, 28, 1);
+}
+.pause_btn {
+  background-color: rgba(9, 154, 200, 1);
+}
+
+.reset_btn {
+  background-color: rgba(239, 153, 25, 1);
+  margin-top: 15px;
+}
